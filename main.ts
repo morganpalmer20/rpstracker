@@ -9,13 +9,13 @@ input.onGesture(Gesture.Shake, function () {
 })
 function update_scores () {
     OLED.clear()
-    OLED.writeStringNewLine("Player 1;" + P1)
+    OLED.writeStringNewLine("Player 1; " + P1)
     OLED.newLine()
-    OLED.writeStringNewLine("Player 2;" + P2)
+    OLED.writeStringNewLine("Player 2; " + P2)
     OLED.newLine()
-    OLED.writeStringNewLine("Ties;" + Ties)
+    OLED.writeStringNewLine("Ties; " + Ties)
     OLED.newLine()
-    OLED.writeStringNewLine("Rounds;" + Rounds)
+    OLED.writeStringNewLine("Rounds; " + Rounds)
 }
 let Rounds = 0
 let Ties = 0
